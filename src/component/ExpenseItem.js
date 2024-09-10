@@ -13,7 +13,7 @@ function ExpenseItem(props) {
       <div className="expense-item__description">
         <h2>{title}</h2>
         <div className="expense-item__price">${props.price}</div>
-        <button  width="20"onClick={handlebutton}></button>
+        <button  width="20"onClick={handlebutton}>Change Title</button>
       </div>
     </Card>
   );
